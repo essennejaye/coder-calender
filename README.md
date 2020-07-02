@@ -12,12 +12,17 @@
 * THEN the text for that event is saved in local storage
 * WHEN I refresh the page
 * THEN the saved events persist
+* WHEN planner is left open
+* THEN each time block is updated every 30 minutes
 
 ## Screenshots
-assets\images\screenshot1.png
-assets\images\screenshot2.png
-assets\images\screenshot3.png
+![](assets/images/screenshot1.png)
 
+![](assets/images/screenshot2.png)
+
+![](assets/images/screenshot3.png)
+
+## Code Snippet
 ```` JS
 var hourText = function (hours) {
     var amPm = hours >= 12 ? "pm" : "am";
