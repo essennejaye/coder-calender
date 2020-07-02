@@ -14,11 +14,11 @@
 * THEN the saved events persist
 
 ## Screenshots
-assets/images/screenshot1.png
-assets/images/screenshot2.png
-assets/images/screenshot3.png
+assets\images\screenshot1.png
+assets\images\screenshot2.png
+assets\images\screenshot3.png
 
-`` JS
+```` JS
 var hourText = function (hours) {
     var amPm = hours >= 12 ? "pm" : "am";
     var hourNum = hours > 12 ? hours - 12 : hours;
@@ -45,5 +45,5 @@ var onSave = function () {
     var key = moment().format("YYYY MM DD") + hours;
     localStorage.setItem(key, taskInput);
 };
-``
+````
  https://essennejaye.github.io/coder-calender/.
